@@ -10,11 +10,14 @@
 
 * Clone this repository by executing `git clone https://github.com/vladimirfomene/keystone-blog.git` in your console.
 * Enter the project directory with `cd keystone-blog`.
+* Go to your terminal and start your Mongo database by executing the following command:
+	* On windows: `net start MongoDB`
+	* With OS X: `brew services start mongodb-community@<YOUR-VERSION-NUMBER>`, replace the text in angle brackets.
+	* On Linux: `sudo service mongod start`
 * Run `npm install` to install all the project's dependencies.
 
 ## Running the app.
 
-* First run your local MongoDB server with the command: `sudo service mongod start`. This will only work if you are using a Linux system.
 * Run the app by executing `node keystone` or `npm start` in the project directory.
 
 ## Testing the application
